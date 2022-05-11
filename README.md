@@ -28,7 +28,7 @@ For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generat
 
 ## To do list
 
-- Fetch number of the problems of a contest automatically.
+- Fetch the number of the problems of a contest automatically.
 
-- Create 1 problem per file.
+- Create 1 problem per folder.
 
