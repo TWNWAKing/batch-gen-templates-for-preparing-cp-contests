@@ -2,7 +2,7 @@
 set /p name= "Enter contest name: "
 mkdir "%name%"
 cd "%name%"
-set /p choice= "Enter the letter of final problem:(A to Z) " 
+set /p choice= "Enter the character of final problem:(A to Z) " 
 If "%choice%" == "A" Goto VA
 If "%choice%" == "B" Goto VB
 If "%choice%" == "C" Goto VC
@@ -31,460 +31,1492 @@ If "%choice%" == "Y" Goto VY
 If "%choice%" == "Z" Goto VZ
 Goto Error
 
-:VA
-type template_directory > A.cpp
+:S
+Echo Generate the folders and files successfully.
 Pause
 Exit
+
+:VA
+mkdir A
+cd A
+type template_directory > A.cpp
+cd..
+Goto S
 
 :VB
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VC
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VD
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VE
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VF
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VG
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VH
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VI
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VJ
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VK
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VL
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VM
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VN
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VO
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VP
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VQ
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VR
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
+cd..
+mkdir R
+cd R
 type template_directory > R.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VS
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
+cd..
+mkdir R
+cd R
 type template_directory > R.cpp
+cd..
+mkdir S
+cd S
 type template_directory > S.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VT
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
+cd..
+mkdir R
+cd R
 type template_directory > R.cpp
+cd..
+mkdir S
+cd S
 type template_directory > S.cpp
+cd..
+mkdir T
+cd T
 type template_directory > T.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VU
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
+cd..
+mkdir R
+cd R
 type template_directory > R.cpp
+cd..
+mkdir S
+cd S
 type template_directory > S.cpp
+cd..
+mkdir T
+cd T
 type template_directory > T.cpp
+cd..
+mkdir U
+cd U
 type template_directory > U.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VV
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
+cd..
+mkdir R
+cd R
 type template_directory > R.cpp
+cd..
+mkdir S
+cd S
 type template_directory > S.cpp
+cd..
+mkdir T
+cd T
 type template_directory > T.cpp
+cd..
+mkdir U
+cd U
 type template_directory > U.cpp
+cd..
+mkdir V
+cd V
 type template_directory > V.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VW
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
+cd..
+mkdir R
+cd R
 type template_directory > R.cpp
+cd..
+mkdir S
+cd S
 type template_directory > S.cpp
+cd..
+mkdir T
+cd T
 type template_directory > T.cpp
+cd..
+mkdir U
+cd U
 type template_directory > U.cpp
+cd..
+mkdir V
+cd V
 type template_directory > V.cpp
+cd..
+mkdir W
+cd W
 type template_directory > W.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VX
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
+cd..
+mkdir R
+cd R
 type template_directory > R.cpp
+cd..
+mkdir S
+cd S
 type template_directory > S.cpp
+cd..
+mkdir T
+cd T
 type template_directory > T.cpp
+cd..
+mkdir U
+cd U
 type template_directory > U.cpp
+cd..
+mkdir V
+cd V
 type template_directory > V.cpp
+cd..
+mkdir W
+cd W
 type template_directory > W.cpp
+cd..
+mkdir X
+cd X
 type template_directory > X.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VY
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
+cd..
+mkdir R
+cd R
 type template_directory > R.cpp
+cd..
+mkdir S
+cd S
 type template_directory > S.cpp
+cd..
+mkdir T
+cd T
 type template_directory > T.cpp
+cd..
+mkdir U
+cd U
 type template_directory > U.cpp
+cd..
+mkdir V
+cd V
 type template_directory > V.cpp
+cd..
+mkdir W
+cd W
 type template_directory > W.cpp
+cd..
+mkdir X
+cd X
 type template_directory > X.cpp
+cd..
+mkdir Y
+cd Y
 type template_directory > Y.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :VZ
+mkdir A
+cd A
 type template_directory > A.cpp
+cd..
+mkdir B
+cd B
 type template_directory > B.cpp
+cd..
+mkdir C
+cd C
 type template_directory > C.cpp
+cd..
+mkdir D
+cd D
 type template_directory > D.cpp
+cd..
+mkdir E
+cd E
 type template_directory > E.cpp
+cd..
+mkdir F
+cd F
 type template_directory > F.cpp
+cd..
+mkdir G
+cd G
 type template_directory > G.cpp
+cd..
+mkdir H
+cd H
 type template_directory > H.cpp
+cd..
+mkdir I
+cd I
 type template_directory > I.cpp
+cd..
+mkdir J
+cd J
 type template_directory > J.cpp
+cd..
+mkdir K
+cd K
 type template_directory > K.cpp
+cd..
+mkdir L
+cd L
 type template_directory > L.cpp
+cd..
+mkdir M
+cd M
 type template_directory > M.cpp
+cd..
+mkdir N
+cd N
 type template_directory > N.cpp
+cd..
+mkdir O
+cd O
 type template_directory > O.cpp
+cd..
+mkdir P
+cd P
 type template_directory > P.cpp
+cd..
+mkdir Q
+cd Q
 type template_directory > Q.cpp
+cd..
+mkdir R
+cd R
 type template_directory > R.cpp
+cd..
+mkdir S
+cd S
 type template_directory > S.cpp
+cd..
+mkdir T
+cd T
 type template_directory > T.cpp
+cd..
+mkdir U
+cd U
 type template_directory > U.cpp
+cd..
+mkdir V
+cd V
 type template_directory > V.cpp
+cd..
+mkdir W
+cd W
 type template_directory > W.cpp
+cd..
+mkdir X
+cd X
 type template_directory > X.cpp
+cd..
+mkdir Y
+cd Y
 type template_directory > Y.cpp
+cd..
+mkdir Z
+cd Z
 type template_directory > Z.cpp
-Pause
-Exit
+cd..
+Goto S
 
 :Error
 Echo There is an error in your input. Please try again.

@@ -8,7 +8,7 @@ This is a convenient tool for setting up files before a programming contest usin
 
 By inputting in the **contest name** and the **last letter of the problems**, it auto generate a folder and the desired templates.
 
-For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generates a folder named "Codeforces Round #790 (Div. 4)" and inside there are files "A.cpp", "B.cpp", "C.cpp", "D.cpp", "E.cpp", "F.cpp", "G.cpp", "H.cpp".
+For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generates a folder named "Codeforces Round #790 (Div. 4)" and inside there are folders frome A to H and each folder has a files "X.cpp", X = folder name.
 
 ## Preparation
 
@@ -30,5 +30,7 @@ For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generat
 
 - Fetch the number of the problems of a contest automatically.
 
-- Create 1 problem per folder.
+- ~~Create 1 problem per folder.~~ (Done)
+
+- Write the batch file more "functionally", instead of wirting them by enumerating variables violently, which is a bad habit.
 
