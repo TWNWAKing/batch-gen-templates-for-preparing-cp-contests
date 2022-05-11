@@ -10,11 +10,40 @@ By inputting in the **contest name** and the **last letter of the problems**, it
 
 For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generates a folder named "Codeforces Round #790 (Div. 4)" and inside there are folders frome A to H and each folder has a files "X.cpp", X = folder name.
 
+Here is the file tree of the example.
+
+```
+└─Codeforces Round #790 (Div. 4)
+    ├─A
+    │      A.cpp
+    │
+    ├─B
+    │      B.cpp
+    │
+    ├─C
+    │      C.cpp
+    │
+    ├─D
+    │      D.cpp
+    │
+    ├─E
+    │      E.cpp
+    │
+    ├─F
+    │      F.cpp
+    │
+    ├─G
+    │      G.cpp
+    │
+    └─H
+            H.cpp
+```
+
 ## Preparation
 
 1. Download **gen.bat**.
 
-2. Edit the **gen.bat**: Replace **template_directory** with the directory of your template file.
+2. Edit the **gen.bat**: Replace all **template_directory** with the directory of your template file.
 
 3. Add the directory of gen.bat to the **environment variable**.
 
@@ -22,7 +51,7 @@ For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generat
 
 1. Open a terminal and change the directory to the folder where you want to start a contest.
 
-2. Type gen and then follow the instructions.
+2. Execute the tool by typing gen and then follow the instructions.
 
 3. Enjoy! However, if you input some unknown letter for the last letter of the problems, it will delete the contest directory automatically which it just create.
 
