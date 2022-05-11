@@ -1,6 +1,6 @@
 # batch-gen-templates-for-cp
 
-A tool which generates a batch of templates for each problem automatically in competitive programming
+A tool which generates a batch of templates for each problem automatically in competitive programming.
 
 ## Intro
 
@@ -12,7 +12,7 @@ For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generat
 
 ## Preparation
 
-1. Download these files.
+1. Download **gen.bat**.
 
 2. Edit the **gen.bat**: Replace **template_directory** with the directory of your template file.
 
@@ -32,5 +32,5 @@ For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generat
 
 - ~~Create 1 problem per folder.~~ (Done)
 
-- Write the batch file more "functionally", instead of wirting them by enumerating variables violently, which is a bad habit.
+- Write the batch file more "functionally", instead of wirting them by enumerating variables violently, which is a bad habit. (maybe I should use python for this tool...)
 
