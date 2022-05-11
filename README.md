@@ -6,7 +6,7 @@ A tool which generates a batch of templates for each problem automatically in co
 
 This is a convenient tool for setting up files before a programming contest using simple batch command.
 
-By inputting in the **contest name** and the **last alphabet of the problems**, it auto generate a folder and the desired templates.
+By inputting in the **contest name** and the **last letter of the problems**, it auto generate a folder and the desired templates.
 
 For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generates a folder named "Codeforces Round #790 (Div. 4)" and inside there are files "A.cpp", "B.cpp", "C.cpp", "D.cpp", "E.cpp", "F.cpp", "G.cpp", "H.cpp".
 
@@ -24,7 +24,7 @@ For example, if I input **Codeforces Round #790 (Div. 4)** and **H**, it generat
 
 2. Type gen and then follow the instructions.
 
-3. Enjoy!
+3. Enjoy! However, if you input some unknown letter for the last letter of the problems, it will delete the contest directory automatically which it just create.
 
 ## To do list
 

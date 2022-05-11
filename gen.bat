@@ -2,7 +2,7 @@
 set /p name= "Enter contest name: "
 mkdir "%name%"
 cd "%name%"
-set /p choice= "Enter the problem character of final problem:(A to Z) " 
+set /p choice= "Enter the letter of final problem:(A to Z) " 
 If "%choice%" == "A" Goto VA
 If "%choice%" == "B" Goto VB
 If "%choice%" == "C" Goto VC
