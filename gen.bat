@@ -31,11 +31,6 @@ If "%choice%" == "Y" Goto VY
 If "%choice%" == "Z" Goto VZ
 Goto Error
 
-:S
-Echo Generate the folders and files successfully.
-Pause
-Exit
-
 :VA
 mkdir A
 cd A
@@ -1519,8 +1514,13 @@ cd..
 Goto S
 
 :Error
-Echo There is an error in your input. Please try again.
+Echo There is an error in your input of the last character of the problem. Please try again.
 cd ..
 rmdir "%name%"
-Pause
-Exit
+Goto END
+
+:S
+Echo Generate the folders and files successfully.
+explorer %CD%
+
+:END

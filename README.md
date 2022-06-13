@@ -1,6 +1,6 @@
 # batch-gen-templates-for-preparing-cp-contests
 
-A small tool which generates a batch of templates for each problem automatically while preparing for a competitive programming contest.
+A small tool written in `batch` which generates a batch of templates for each problem automatically while preparing for a competitive programming contest.
 
 **Update:** Now user can generate a folder for one single problem. See `genp.bat` for more details.
 
@@ -55,11 +55,13 @@ Here is the directory tree of the example mentioned above.
 
 2. Execute the tool by typing `gen`.
 
-3. You'll see `Enter contest name: ` on the screen, now you can type the contest name **without quotes**.
+3. You'll see `Enter contest name: ` on your screen, now you can type the contest name **without quotes**.
 
-4. Now you'll see `Enter the character of final problem:(A to Z) `, you need to type a letter from `A` to `Z`. If you input any invalid character, the tool with delete the wrong directory you just created.
+4. Now you'll see `Enter the character of final problem:(A to Z) `  on your screen, you need to type a letter from `A` to `Z`. If you input any invalid character, the tool with delete the wrong directory you just created.
 
-5. Enjoy! 
+5. The tool will open the directory you just created. Enjoy your contest!
+
+TL;DR for point 5: Note that the author uses Windows so I can open the current directory by executing command `explorer %CD%`. If your OS doesn't support this, you need to modify the line 1524 of `gen.bat`.
 
 ## (New Feature) What if I want to add an extra problem for this contest or the problem name isn't a single character from A to Z?
 
